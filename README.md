@@ -7,12 +7,12 @@ A library of reusable document templates and reference docs for product and soft
 ```
 doc-templates/
 ├── Software-Lifecycles-Overview.md   # Reference: how business, product, and SDLC lifecycles nest
-└── templates-01/
-    └── product/                      # Product management templates
-        ├── discovery/                # Before you build
-        ├── execution/                # While you build
-        ├── launch/                   # When you ship
-        └── ongoing/                  # Throughout everything
+└── Templates-01/
+    └── Product/                      # Product management templates
+        ├── Discovery/                # Before you build
+        ├── Execution/                # While you build
+        ├── Launch/                   # When you ship
+        └── Ongoing/                  # Throughout everything
 ```
 
 ## Reference Docs
@@ -23,7 +23,7 @@ doc-templates/
 
 ## Templates
 
-See [templates-01/product/README.md](templates-01/product/README.md) for the full template index.
+See [Templates-01/Product/README.md](Templates-01/Product/README.md) for the full template index.
 
 ### Quick Reference
 
@@ -36,7 +36,13 @@ See [templates-01/product/README.md](templates-01/product/README.md) for the ful
 
 ## Usage
 
-1. Find the template for your phase in `templates-01/product/<phase>/`
+1. Find the template for your phase in `Templates-01/Product/<Phase>/`
 2. Copy it to your project folder
 3. Rename it (drop the `-Template` suffix)
 4. Fill it in
+
+## File Naming Convention
+
+Business documents in this repo use **Train-Case**: each word capitalized, separated by hyphens (e.g. `Project-Brief-Template.md`, `PRD-Template.md`). Acronyms stay fully uppercase.
+
+Development files (scripts, config, tooling) may follow a different convention such as kebab-case (`my-script.sh`) per the norms of the language or toolchain involved.
